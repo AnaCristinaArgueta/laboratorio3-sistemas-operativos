@@ -1,0 +1,145 @@
+/* CONFIGURACION GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0c197;
+    color: #2b1f19;
+    line-height: 1.6;
+}
+/* ENCABEZADO */
+header {
+    background-color: #493329;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+header h1 {
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+header p {
+    color: #d6ca95;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/* MENU DE NAVEGACION */
+nav {
+    margin-top: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #be9e79;
+}
+/* SECCIONES */
+section {
+    max-width: 900px;
+    margin: 35px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(56, 38, 29, 0.1);
+    text-align: center;
+}
+/* TITULOS */
+section h2 {
+    color: #a66c40;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+/* PARRAFOS */
+section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+/* IMAGEN PRINCIPAL */
+section img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 15px 0;
+    border: 5px solid #d5af84;
+}
+/* LISTAS */
+ul {
+    list-style: none;
+}
+ul li {
+    background-color: #fff8ef;
+    margin: 10px auto;
+    padding: 12px;
+    max-width: 500px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+ul li:hover {
+    background-color: #d4b99a;
+    transform: scale(1.03);
+}
+/* ENLACES */
+section a {
+    display: inline-block;
+    background-color: #9e663b;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+section a:hover {
+    background-color: #684434;
+}
+/* BOTON DE CONTACTO */
+button {
+    background-color: #8b5e3c;
+    color: white;
+    border: none;
+    padding: 13px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #624233;
+    transform: scale(1.05);
+}
+/* LINEAS DIVISORIAS */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #cd9d66;
+}
+/* DISEÑO PARA CELULARES */
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    section {
+        margin: 20px 12px;
+        padding: 25px 15px;
+    }
+
+    section h2 {
+        font-size: 23px;
+    }
+}
